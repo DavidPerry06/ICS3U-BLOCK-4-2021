@@ -10,8 +10,8 @@ public class HW10 {
                 
 
 
-        double root1 = (-b + Math.sqrt(b*b - 4.0*a*c))/2.0;
-        double root2 = (-b - Math.sqrt(b*b - 4.0*a*c))/2.0;
+        double root1 = (-b + Math.sqrt(b*b - 4.0*a*c))/(2.0 * a);
+        double root2 = (-b - Math.sqrt(b*b - 4.0*a*c))/(2.0 * a);
 
 
         System.out.println("The Roots are " + root1 +" and " + root2);
