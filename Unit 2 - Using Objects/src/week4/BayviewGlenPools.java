@@ -13,6 +13,9 @@ public class BayviewGlenPools {
         double surfaceArea = getSurfaceArea(length, width, shallowheight, shallowlength, transition, deepheight);
         double ninetyPercentFull = volume * 0.9;
         double cost = surfaceArea * linerCost;
+        
+        System.out.println(ninetyPercentFull);
+        System.out.println(cost);
     }
 
   
