@@ -6,9 +6,7 @@ public class ExtraPractice {
         System.out.println(randomIntTwo()); 
         System.out.println(diceRoll()); 
         System.out.println(randomIntThree(20, 10)); 
-        System.out.println(removeLetterE("There is no capital e")); 
-        System.out.println(removeSubString("I like to eat apples", 2, 10)); 
-        System.out.println(removeSubString2("This is read, not red", "red")); 
+        //System.out.println(removeLetterE("There is no capital e")); 
         System.out.println(sumOfStringLengths("I enjoy pie", "That was a lie")); 
         System.out.println(slopeOfLine(10, 50, 15, 27)); 
         System.out.println(volumeOfCylinder(40, 20)); 
@@ -33,10 +31,12 @@ public class ExtraPractice {
         int n = (int) (Math.random() * bigNum) + smallNum; 
         return n; 
     } 
+    /*
     public static String removeLetterE(String str) { 
         String first = str.substring(0, str.indexOf(e));
         String last = str.substring(str.indexOf(e) + 1);
     }  
+    */
     
     public static int sumOfStringLengths(String str, String str1) { 
     return str.length() + str1.length(); 
