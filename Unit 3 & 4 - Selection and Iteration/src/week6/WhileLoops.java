@@ -5,20 +5,20 @@ public class WhileLoops {
 
     
     public static void main(String[] args) {
-        //exampleOne();
+        exampleOne();
         //exampleTwo();
 
         //System.out.println(exampleThree(10, 28));
-        int numVowels = countVowels("This is a sentence with VOWELS!!!");
+        //int numVowels = countVowels("This is a sentence with VOWELS!!!");
     }
 
-    private static int countVowels(String str) {
+   /**  private static int countVowels(String str) {
         int numVowels = 0;
         int index = 0;
 
         String vowels = "AEIOUaeiou";
 
-        while(index < str.length){
+        while(index < str.length()){
             String nextChar = str.substring(index, index + 1);
             if(vowels.indexOf(nextChar) >= 0){
                 numVowels++;
@@ -29,8 +29,9 @@ public class WhileLoops {
 
             
         }
+        */
 
-    }
+
 
     private static int exampleThree(int start, int end) {
         int counter = 10;
